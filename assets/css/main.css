@@ -1,0 +1,129 @@
+body {
+	background-color: #212121;
+	color: #eee;
+	font-family: Babel Sans
+}
+
+a {
+	color: #989
+}
+
+pre {
+	background-color: #0f140f;
+}
+
+.wrap {
+	width: 70%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.sitenav ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.flex-container {
+	display: flex;
+	align-items: baseline;
+}
+
+header h1 {
+	display: inline-block;
+	margin-right: .5em;
+}
+
+.sitenav li {
+	display: inline;
+}
+
+.sitenav a {
+	font-size: 1.4em;
+	text-decoration: none;
+	color: inherit
+}
+
+.title {
+	font-size: 3em;
+	margin-right: .5em;
+	text-decoration: none;
+	color: inherit;
+	font-family: Namdemian;
+}
+
+.sitenav a:hover {
+	text-decoration: underline;
+}
+
+.social-icons a {
+	color: inherit;
+}
+
+header a:hover, .social-icons a:hover {
+	color: grey;
+}
+
+.sep {
+	margin: 0;
+	border: 0;
+	border-bottom: 1px dashed #dedede;
+}
+
+.content-block {
+	display: flex;
+	padding: 0 1em;
+}
+
+.content {
+	padding: 1em 1em 1em 0;
+	width: 80%;
+}
+
+.sidebar {
+	text-align: center;
+	border-left: 1px dashed #dedede;
+	width: 20%;
+	padding: 1em 0 1em 1em
+}
+
+.post-list {
+	list-style-type: none;
+}
+
+.post-list h2 {
+	display: inline
+}
+
+.sidebar img {
+	width: 100%;
+}
+
+.site-description {
+	margin: .5em 0 0 0;
+}
+
+.post {
+	border-bottom: 1px dashed #dedede;
+	padding-bottom: .5em;
+	margin-bottom: 1em;
+	display: inline-block;
+}
+
+.post h2 {
+	font-size: 1em
+}
+
+.preview {
+	padding-bottom: 1em;
+}
+
+@font-face {
+	font-family: Namdemian;
+	src: url(../fonts/Namdemian.ttf);
+}
+
+@font-face {
+	font-family: Babel Sans;
+	src: url(../fonts/BabelSans.ttf);
+}
