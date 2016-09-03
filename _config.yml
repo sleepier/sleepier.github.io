@@ -25,7 +25,6 @@ github_username:  sleepier
 
 # Build settings
 markdown: kramdown
-theme:
 
-exclude: [Gemfile.lock]
+exclude: [Gemfile, Gemfile.lock]
 keep_files: [CNAME, .nojekyll, .git]
