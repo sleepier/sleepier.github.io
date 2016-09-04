@@ -67,24 +67,24 @@ header a:hover, .social-icons a:hover {
 .sep {
 	margin: 0;
 	border: 0;
-	border-bottom: 1px dashed #dedede;
+	border-bottom: 1px dotted #dedede;
 }
 
 .content-block {
 	display: flex;
-	padding: 0 1em;
+	padding: 0 0 0 1em;
 }
 
 .content {
 	padding: 1em 1em 1em 0;
-	width: 80%;
+	width: 85%;
 }
 
 .sidebar {
 	text-align: center;
-	border-left: 1px dashed #dedede;
-	width: 20%;
-	padding: 1em 0 1em 1em
+	border-left: 1px dotted #dedede;
+	width: 15%;
+	padding: 1em
 }
 
 .post-list {
@@ -104,7 +104,7 @@ header a:hover, .social-icons a:hover {
 }
 
 .post {
-	border-bottom: 1px dashed #dedede;
+	border-bottom: 1px dotted #dedede;
 	padding-bottom: .5em;
 	margin-bottom: 1em;
 	display: inline-block;
